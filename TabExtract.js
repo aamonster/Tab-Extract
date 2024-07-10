@@ -12,7 +12,6 @@
     var matchingTabs = [];
     var queryInfo = {
       pinned: false,
-      status: "complete",
       windowType: "normal"
     };
     chrome.tabs.query( queryInfo, function( tabs ) {
